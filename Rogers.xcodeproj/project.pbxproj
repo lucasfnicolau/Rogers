@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5516551E2267B4FC007C2D95 /* ColorHarmony.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5516551D2267B4FC007C2D95 /* ColorHarmony.storyboard */; };
+		551655202267C030007C2D95 /* ColorHarmonyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5516551F2267C030007C2D95 /* ColorHarmonyVC.swift */; };
 		CE5E5F7A2267B0B200EC0577 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5E5F792267B0B200EC0577 /* AppDelegate.swift */; };
 		CE5E5F7C2267B0B200EC0577 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5E5F7B2267B0B200EC0577 /* ViewController.swift */; };
 		CE5E5F7F2267B0B200EC0577 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5E5F7D2267B0B200EC0577 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5516551D2267B4FC007C2D95 /* ColorHarmony.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ColorHarmony.storyboard; sourceTree = "<group>"; };
+		5516551F2267C030007C2D95 /* ColorHarmonyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHarmonyVC.swift; sourceTree = "<group>"; };
 		CE5E5F762267B0B200EC0577 /* Rogers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rogers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5E5F792267B0B200EC0577 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE5E5F7B2267B0B200EC0577 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				CE5E5F802267B0B400EC0577 /* Assets.xcassets */,
 				CE5E5F822267B0B400EC0577 /* LaunchScreen.storyboard */,
 				CE5E5F852267B0B400EC0577 /* Info.plist */,
+				5516551D2267B4FC007C2D95 /* ColorHarmony.storyboard */,
+				5516551F2267C030007C2D95 /* ColorHarmonyVC.swift */,
 			);
 			path = Rogers;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 				CE5E5F842267B0B400EC0577 /* LaunchScreen.storyboard in Resources */,
 				CE5E5F812267B0B400EC0577 /* Assets.xcassets in Resources */,
 				CE5E5F7F2267B0B200EC0577 /* Main.storyboard in Resources */,
+				5516551E2267B4FC007C2D95 /* ColorHarmony.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				551655202267C030007C2D95 /* ColorHarmonyVC.swift in Sources */,
 				CE5E5F7C2267B0B200EC0577 /* ViewController.swift in Sources */,
 				CE5E5F7A2267B0B200EC0577 /* AppDelegate.swift in Sources */,
 			);

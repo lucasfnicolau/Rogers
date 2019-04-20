@@ -21,7 +21,7 @@ class ColorSpacesVC: UIViewController {
         adobeRGB.tintColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
         
         dpiP3.image = dpiP3.image?.withRenderingMode(.alwaysTemplate)
-        dpiP3.tintColor = #colorLiteral(red: 1, green: 0, blue: 0.2823529412, alpha: 1)
+        dpiP3.tintColor = #colorLiteral(red: 1, green: 0.07843137255, blue: 0.3098039216, alpha: 1)
         
         sRGB.image = sRGB.image?.withRenderingMode(.alwaysTemplate)
         sRGB.tintColor = #colorLiteral(red: 0.9529411765, green: 0.6862745098, blue: 0.1333333333, alpha: 1)

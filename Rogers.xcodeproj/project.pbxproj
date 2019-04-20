@@ -12,6 +12,12 @@
 		CE5E5F7F2267B0B200EC0577 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5E5F7D2267B0B200EC0577 /* Main.storyboard */; };
 		CE5E5F812267B0B400EC0577 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE5E5F802267B0B400EC0577 /* Assets.xcassets */; };
 		CE5E5F842267B0B400EC0577 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5E5F822267B0B400EC0577 /* LaunchScreen.storyboard */; };
+		CE5E5F902267B6F800EC0577 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5E5F8F2267B6F800EC0577 /* CircleView.swift */; };
+		CE5E5F942267BF2300EC0577 /* ColorMixingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5E5F932267BF2300EC0577 /* ColorMixingVC.swift */; };
+		CE5E5F992268DC9800EC0577 /* ColorHarmonyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5E5F972268DC9700EC0577 /* ColorHarmonyVC.swift */; };
+		CE5E5F9D2268E3AD00EC0577 /* ColorSpacesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5E5F9B2268E3AD00EC0577 /* ColorSpacesVC.swift */; };
+		CE5E5FA4226910F200EC0577 /* WelcomeScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5E5FA3226910F200EC0577 /* WelcomeScreen.storyboard */; };
+		CE5E5FA6226918EF00EC0577 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5E5FA5226918EF00EC0577 /* RoundedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		CE5E5F802267B0B400EC0577 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE5E5F832267B0B400EC0577 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE5E5F852267B0B400EC0577 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE5E5F8F2267B6F800EC0577 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CircleView.swift; path = View/CircleView.swift; sourceTree = "<group>"; };
+		CE5E5F932267BF2300EC0577 /* ColorMixingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorMixingVC.swift; sourceTree = "<group>"; };
+		CE5E5F972268DC9700EC0577 /* ColorHarmonyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorHarmonyVC.swift; sourceTree = "<group>"; };
+		CE5E5F9B2268E3AD00EC0577 /* ColorSpacesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorSpacesVC.swift; sourceTree = "<group>"; };
+		CE5E5FA3226910F200EC0577 /* WelcomeScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WelcomeScreen.storyboard; sourceTree = "<group>"; };
+		CE5E5FA5226918EF00EC0577 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +67,17 @@
 			isa = PBXGroup;
 			children = (
 				CE5E5F792267B0B200EC0577 /* AppDelegate.swift */,
+				CE5E5F8F2267B6F800EC0577 /* CircleView.swift */,
 				CE5E5F7B2267B0B200EC0577 /* ViewController.swift */,
 				CE5E5F7D2267B0B200EC0577 /* Main.storyboard */,
 				CE5E5F802267B0B400EC0577 /* Assets.xcassets */,
 				CE5E5F822267B0B400EC0577 /* LaunchScreen.storyboard */,
 				CE5E5F852267B0B400EC0577 /* Info.plist */,
+				CE5E5F972268DC9700EC0577 /* ColorHarmonyVC.swift */,
+				CE5E5F932267BF2300EC0577 /* ColorMixingVC.swift */,
+				CE5E5F9B2268E3AD00EC0577 /* ColorSpacesVC.swift */,
+				CE5E5FA3226910F200EC0577 /* WelcomeScreen.storyboard */,
+				CE5E5FA5226918EF00EC0577 /* RoundedButton.swift */,
 			);
 			path = Rogers;
 			sourceTree = "<group>";
@@ -122,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE5E5FA4226910F200EC0577 /* WelcomeScreen.storyboard in Resources */,
 				CE5E5F842267B0B400EC0577 /* LaunchScreen.storyboard in Resources */,
 				CE5E5F812267B0B400EC0577 /* Assets.xcassets in Resources */,
 				CE5E5F7F2267B0B200EC0577 /* Main.storyboard in Resources */,
@@ -135,8 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE5E5F992268DC9800EC0577 /* ColorHarmonyVC.swift in Sources */,
+				CE5E5F902267B6F800EC0577 /* CircleView.swift in Sources */,
 				CE5E5F7C2267B0B200EC0577 /* ViewController.swift in Sources */,
+				CE5E5F942267BF2300EC0577 /* ColorMixingVC.swift in Sources */,
+				CE5E5FA6226918EF00EC0577 /* RoundedButton.swift in Sources */,
 				CE5E5F7A2267B0B200EC0577 /* AppDelegate.swift in Sources */,
+				CE5E5F9D2268E3AD00EC0577 /* ColorSpacesVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

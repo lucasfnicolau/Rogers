@@ -28,8 +28,6 @@ class ColorSpacesVC: UIViewController {
     }
     
     @IBAction func toggleDCI(_ sender: UISwitch) {
-        sender.onTintColor = dpiP3.tintColor
-        
         switch (sender.isOn) {
         case true:
             dpiP3.isHidden = false
@@ -39,8 +37,6 @@ class ColorSpacesVC: UIViewController {
     }
     
     @IBAction func toggleSRGB(_ sender: UISwitch) {
-        sender.onTintColor = sRGB.tintColor
-        
         switch (sender.isOn) {
         case true:
             sRGB.isHidden = false
@@ -50,8 +46,6 @@ class ColorSpacesVC: UIViewController {
     }
     
     @IBAction func toggleAdobeRGB(_ sender: UISwitch) {
-        sender.onTintColor = adobeRGB.tintColor
-        
         switch (sender.isOn) {
         case true:
             adobeRGB.isHidden = false
